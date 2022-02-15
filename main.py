@@ -7,6 +7,7 @@ import sys
 def main():
     print(sys.argv[1:])
     print(sum(map(int,sys.argv[1:])))
+    print()
     print("Hello World!", 5/2 == float(5)/2)
 
 if __name__ == "__main__":
